@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clients | Jones &amp; Ridenour, Inc.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Jones &amp; <span>Ridenour</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About / Services</a>
+        <a href="consultants.html">Consultants</a>
+        <a href="clients.html" aria-current="page">Clients</a>
+        <a href="experience.html">Experience</a>
+        <a href="project-photos.html">Project Photos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <h1>Clients</h1>
+      <p>Abbreviated list of clients for whom Jones &amp; Ridenour has worked.</p>
+    </div>
+
+    <section class="section" style="padding-top: 0;">
+      <ul class="client-list">
+        <li>DR Horton</li>
+        <li>Wisenbaker, Fix &amp; Associates / KSA Engineers</li>
+        <li>JBI Partners</li>
+        <li>Velvin &amp; Weeks Consulting Engineers</li>
+        <li>Huitt-Zollars</li>
+        <li>Pacheco Koch Consulting Engineers</li>
+        <li>Hillwood</li>
+        <li>Toll Brothers</li>
+        <li>XTO Energy</li>
+        <li>Cox Logistics</li>
+        <li>First Texas Homes</li>
+        <li>Mr. Donald J. McNamara</li>
+        <li>O.P. Leonard, Jr. Investment Company</li>
+        <li>Tripp Davis &amp; Associates</li>
+        <li>Preston Trail Golf Club</li>
+        <li>Northwood Club</li>
+        <li>City of Keller</li>
+        <li>City of Ennis</li>
+        <li>City of Benbrook</li>
+        <li>Hidden Creek HOA</li>
+        <li>Boy Scouts of America</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Jones &amp; Ridenour, Inc.</p>
+      <p><a href="index.html#contact">Contact</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

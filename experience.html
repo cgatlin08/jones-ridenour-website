@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Experience | Jones &amp; Ridenour, Inc.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Jones &amp; <span>Ridenour</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About / Services</a>
+        <a href="consultants.html">Consultants</a>
+        <a href="clients.html">Clients</a>
+        <a href="experience.html" aria-current="page">Experience</a>
+        <a href="project-photos.html">Project Photos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <h1>Experience</h1>
+      <p>Long-standing work with the U.S. Army Corps of Engineers and project delivery across Texas.</p>
+    </div>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="section-head">
+        <h2>General achievements</h2>
+      </div>
+      <ul class="bullet-list">
+        <li>Excellent, long-standing rapport with the Fort Worth District of the U.S. Army Corps of Engineers.</li>
+        <li>Secured 200+ U.S. Army Corps of Engineers Section 404 Permits, including Nationwide Permits, Individual Permits, Regional General Permits, and Letters of Permission.</li>
+        <li>Identified countless Nationwide Permit authorizations that did not require submittal of a permit application package.</li>
+        <li>Helped design projects so jurisdictional features were avoided and/or non-regulated activities were used — often eliminating the need for Section 404 authorization or compensatory mitigation.</li>
+        <li>Assisted countless private developers and 20+ municipalities in obtaining Corps authorization.</li>
+        <li>Routinely coordinates with EPA, TCEQ, U.S. Fish &amp; Wildlife Service, Texas Parks &amp; Wildlife, and the Texas Historical Commission when their support is needed.</li>
+      </ul>
+    </section>
+
+    <section class="band">
+      <div class="section">
+        <div class="section-head">
+          <h2>Example projects</h2>
+        </div>
+        <ul class="bullet-list">
+          <li>Due diligence resource assessment, BLM coordination, threatened and endangered species consultation, and cultural resources assistance for a proposed well pad in Tarrant County, Texas.</li>
+          <li>Preliminary wetlands determination, delineation, endangered species investigation, water quality certification, cultural resources assistance, wetlands permitting, and on-site mitigation design/monitoring for a 130-acre private lake in Grimes County, Texas.</li>
+          <li>Wildlife habitat analysis, tree inventory, limited wetlands assessment, endangered species investigation, and cultural resources assessment for a permanent easement on Corps property at Joe Pool Lake, Grand Prairie, Texas.</li>
+          <li>Wetlands determination, delineation, permitting, mitigation consulting, and permit compliance for a golf course redesign in Dallas, Texas.</li>
+          <li>Wetlands determination, delineation, consulting, cultural resources assistance, and permitting for a residential development in Collin County, Texas.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Jones &amp; Ridenour, Inc.</p>
+      <p><a href="project-photos.html">Project photos</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
