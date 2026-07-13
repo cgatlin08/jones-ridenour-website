@@ -591,10 +591,10 @@ a:hover {
 }
 
 .site-footer {
-  background: var(--forest-deep);
-  color: rgba(255, 255, 255, 0.7);
-  padding: 2.5rem 1.35rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--paper);
+  color: var(--ink-soft);
+  padding: 2rem 1.35rem;
+  border-top: 1px solid var(--line);
 }
 
 .footer-inner {
@@ -611,25 +611,29 @@ a:hover {
 .footer-brand {
   display: inline-flex;
   align-items: center;
-  padding: 0.65rem 0.85rem;
-  background: rgba(247, 248, 245, 0.96);
-  border-radius: 999px;
+  text-decoration: none;
 }
 
 .footer-brand img {
-  width: min(260px, 70vw);
+  width: min(240px, 68vw);
   height: auto;
   display: block;
 }
 
 .footer-meta {
   display: grid;
-  gap: 0.35rem;
+  gap: 0.25rem;
   text-align: right;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.footer-meta p {
+  margin: 0;
 }
 
 .footer-inner a {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--moss);
 }
 
 @keyframes rise {
